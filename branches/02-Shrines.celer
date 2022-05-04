@@ -33,6 +33,8 @@ Shrines:
 - _Shrine::QukahNata
 - WB to Shoda Sah
 - _Shrine::ShodaSah:
+    var-change:
+      IceArrow: +5
     notes: Collect 5x Ice Arrows for BTBs
 - WB Superlaunch to Shai Utoh
 - _Shrine::ShaiUtoh
@@ -58,7 +60,11 @@ Shrines:
 - _Shrine::ZeKasho
 - BLSS to Katosa Aug
 - _Shrine::KatosaAug
-- .!!(Investigate movement options) BLSS or BTB?
+- .!!(Investigate movement options) BLSS or BTB?:
+    var-change:
+      Arrow: -2
+      IceArrow: -1
+- __use__ CheckArrows
 - _Shrine::ZunaKai
 - _Warp::Shrine::KehNamut:
     split-type: None
@@ -73,6 +79,9 @@ Shrines:
 - _Shrine::KaamYatak
 - BTB from Moblin to Mogg Latan:
     coord: [-1090.50, 169.82, 532.50]
+    var-change:
+      IceArrow: -1
+- __use__ CheckArrows
 - _Shrine::MoggLatan
 - BLSS to Tena Kosah
 - _Shrine::TenaKosah
@@ -84,6 +93,9 @@ Shrines:
 - _Shrine::MaagNorah
 - BTB from Moblin to Rin Oyaa:
     coord: [-1831.33, 211.97, -1653.39]
+    var-change:
+      IceArrow: -2
+- __use__ CheckArrows
 - _Shrine::RinOyaa
 - BLSS to Sha Gehma
 - _Shrine::ShaGehma
