@@ -1,0 +1,14 @@
+---
+_project:
+  authors:
+    - CobChamp
+    - iTNTPiston
+  description: ""
+  name: Master Sword (Restricted)
+  url: "https://github.com/cobchamp/botw_master_sword_restricted"
+  version: 0.1.0
+_route:
+  - Plateau:
+      - __use__ Plateau
+  - Shrines:
+      - __use__ Shrines

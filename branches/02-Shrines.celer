@@ -1,0 +1,59 @@
+Shrines:
+- Collect Flint from ore deposits
+- _Shrine::BoshKala
+- _Shrine::WahgoKatta
+- _Shrine::HilaRao
+- Collect Food and 4+ Wood
+- _Shrine::KayaWan
+- _Shrine::ShehRata
+- _Shrine::DakaTuss
+- _Npc<Goddess Statue>:
+    coord: [1840.12, 218.54, 997.89]
+    comment: 2 Heart Containers
+- _Shrine::TalohNaeg
+- _Shrine::HaDahamar
+- _Shrine::TotoSah
+- _Shrine::ReeDahee
+- _Shrine::SheeVaneer:
+    notes: SCW
+- _Shrine::SheeVaneth
+- _Shrine::QukahNata
+- _Shrine::ShodaSah
+- _Shrine::ShaiUtoh
+- _Shrine::KaoMakagh
+# - _Shrine::PumaagNitae
+- _Shrine::YaNaga
+- _Warp::Shrine::TalohNaeg:
+    split-type: None
+# - _Warp::Shrine::ShehRata: 
+#    split-type: None
+    line-color: red
+# - _Shrine::SohKofi
+- _Shrine::TahMuhl
+- _Shrine::MoaKeet
+- _Shrine::SahDahaj
+- _Shrine::ZeKasho
+- _Shrine::KatosaAug
+- _Shrine::ZunaKai
+- _Warp::Shrine::KehNamut:
+    split-type: None
+    line-color: orange
+- _Shrine::JeeNoh
+- _Shrine::DahKaso
+- _Shrine::RotaOoh
+- _Shrine::KaamYatak
+- _Shrine::MoggLatan
+- _Shrine::TenaKosah
+- _Shrine::ShaeLoya
+- _Shrine::MonyaToma
+- _Shrine::MaagNorah
+- _Shrine::RinOyaa
+- _Shrine::ShaGehma
+- _Shrine::QazaTokki
+- _Shrine::KeoRuug
+- _Npc<Goddess Statue>:
+    coord: [415.74, 258.73, -2179.85]
+    comment: 8 Heart Containers
+- _Equipment::Weapon<Master Sword>:
+    coord: [431.66, 250.53, -2111.00]
+    split-type: UserDefined
