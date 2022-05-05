@@ -25,10 +25,12 @@ Shrines:
 - _Shrine::TotoSah
 - WB Superlaunch Chain to Ree Dahee
 - _Shrine::ReeDahee
-- SCW to Shee Vaneer
+- SCW to Shee Vaneer:
+    var-change:
+      Arrow: -1
 - _Shrine::SheeVaneer
 - Glide down to Shee Venath
-- _Shrine::SheeVaneth
+- _Shrine::SheeVenath
 - BLSS to Qukah Nata
 - _Shrine::QukahNata
 - WB to Shoda Sah
