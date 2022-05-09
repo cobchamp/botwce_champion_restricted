@@ -7,6 +7,11 @@ _project:
   name: Master Sword (Restricted)
   url: "https://github.com/cobchamp/botw_master_sword_restricted"
   version: 0.1.0
+
+_config:
+  split-format:
+    Shrine: "{{_}} ({{Shrine}})"
+    
 _route:
   - Plateau:
       - __use__ Plateau

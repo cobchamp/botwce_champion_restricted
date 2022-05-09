@@ -1,10 +1,9 @@
 Plateau:
-- SOR Clip, Activate ToD
-- _Equipment::Weapon<Tree Branch>:
-    coord: [-1024.63, 251.40, 1812.55]
-    comment: For fall damage cancel
+- SOR Clip
 - _Equipment::Shield<Pot Lid>:
     coord: [-952.34, 238.33, 1959.44]
+- _Equipment::Weapon<Boko Spear>:
+    coord: [-943.32, 238.76, 1952.53]
 - _Chest<Traveller's Bow>:
     coord: [-832.43, 222.00, 1963.11]
 - 5 Arrows:
@@ -20,7 +19,7 @@ Plateau:
 - WB over barrier to mag
 - _Shrine::OmanAu
 
-- BLSS and Windbomb to stasis
+- BLSS and WB to stasis
 - _Shrine::OwaDaim
 
 - Boulder + BTB to cryo:

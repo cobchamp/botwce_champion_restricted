@@ -1,5 +1,5 @@
 Shrines:
-- BLSS to Bosh Kala
+- BLSS to Bosh Kala from below
 - Collect Flint from ore deposits
 - _Shrine::BoshKala
 - WB Superlaunch to Wahgo Katta
@@ -8,10 +8,12 @@ Shrines:
 - _Shrine::HilaRao
 - WB to Kaya Wan
 - Collect Food and 4+ Wood
-- _Shrine::KayaWan
-- .!!(Investigate movement options) BLSS from Stable Horse?
+- _Shrine::KayaWan:
+    var-change:
+      Arrow: -1
+- WB to top of stable horse, BLSS
 - _Shrine::ShehRata
-- .!!(Investigate movement options)
+- WB Superlaunch to Daka Tuss
 - _Shrine::DakaTuss
 - WB Chain to Kakariko
 - _Npc<Goddess Statue>:
@@ -31,20 +33,20 @@ Shrines:
 - _Shrine::SheeVaneer
 - Glide down to Shee Venath
 - _Shrine::SheeVenath
-- BLSS to Qukah Nata
+- Elevator BLSS to Qukah Nata
 - _Shrine::QukahNata
 - WB to Shoda Sah
 - _Shrine::ShodaSah:
     var-change:
-      IceArrow: +5
-    notes: Collect 5x Ice Arrows for BTBs
-- WB Superlaunch to Shai Utoh
+      IceArrow: 5
+    comment: Collect .v(IceArrow) Ice Arrows for BTBs
+- Elevator BLSS to Shai Utoh
 - _Shrine::ShaiUtoh
-- WB Superlaunch Chain to Kao Makagh
+- WB .dir(E) + BLSS
 - _Shrine::KaoMakagh
 # - WB to Pumaag Nitae
 # - _Shrine::PumaagNitae
-- BLSS to Ya Naga
+- Elevator BLSS to Ya Naga
 - _Shrine::YaNaga
 - _Warp::Shrine::TalohNaeg:
     split-type: None
@@ -60,13 +62,9 @@ Shrines:
 - _Shrine::SahDahaj
 - WB Chain to Ze Kasho
 - _Shrine::ZeKasho
-- BLSS to Katosa Aug
+- Elevator BLSS to Katosa Aug
 - _Shrine::KatosaAug
-- .!!(Investigate movement options) BLSS or BTB?:
-    var-change:
-      Arrow: -2
-      IceArrow: -1
-- __use__ CheckArrows
+- Elevator BLSS + WB to Zuna Kai
 - _Shrine::ZunaKai
 - _Warp::Shrine::KehNamut:
     split-type: None
@@ -74,10 +72,10 @@ Shrines:
 - WB Superlaunch to Jee Noh
 - _Shrine::JeeNoh
 - WB Superlaunch to Dah Kaso
-- _Shrine::DahKaso
+# - _Shrine::DahKaso
 - WB Chain to Rota Ooh
 - _Shrine::RotaOoh
-- WB Superlaunch to Kaam Yatak
+- Elevator BLSS to Kaam Yatak
 - _Shrine::KaamYatak
 - BTB from Moblin to Mogg Latan:
     coord: [-1090.50, 169.82, 532.50]
@@ -89,7 +87,8 @@ Shrines:
 - _Shrine::TenaKosah
 - WB to Shae Loya
 - _Shrine::ShaeLoya
-- BLSS to Monya Toma
+- Elevator BLSS to Zalta Wa
+- _Shrine::ZaltaWa
 - _Shrine::MonyaToma
 - WB to Maag Norah
 - _Shrine::MaagNorah
