@@ -1,1 +1,1 @@
-[View in Celer Web App](https://celer.itntpiston.app/#/gh/cobchamp/botw_master_sword_restricted/master)
+[View in Celer Web App](https://celer.itntpiston.app/#/gh/cobchamp/botwce_champion_restricted)
