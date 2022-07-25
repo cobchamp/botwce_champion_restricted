@@ -2,10 +2,9 @@
 _project:
   authors:
     - CobChamp
-    - iTNTPiston
   description: ""
-  name: Master Sword (Restricted)
-  url: "https://github.com/cobchamp/botw_master_sword_restricted"
+  name: Champion% (Restricted)
+  url: "https://github.com/cobchamp/botwce_champion_restricted"
   version: 0.1.0
 
 _config:

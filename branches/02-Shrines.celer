@@ -1,21 +1,31 @@
 Shrines:
-- BLSS to Bosh Kala from below
-- Collect Flint from ore deposits
+- BLSS
+- _Chest<Fire Arrow, 5>:
+    coord: [-285.04, 157.09, 1585.50]
+- BLSS
 - _Shrine::BoshKala
 - WB Superlaunch to Wahgo Katta
 - _Shrine::WahgoKatta
 - WB to Hila Rao
 - _Shrine::HilaRao
-- WB to Kaya Wan
-- Collect Food and 4+ Wood
-- _Shrine::KayaWan:
-    var-change:
-      Arrow: -1
+- WB .dir(N)
+- _Material<Fairy, 1>:
+    coord: [949.19, 138.58, 502.84]
+- WB .dir(NW)
+- Collect Food
+- _Shrine::KayaWan
 - WB to top of stable horse, BLSS
 - _Shrine::ShehRata
 - WB Superlaunch to Daka Tuss
 - _Shrine::DakaTuss
 - WB Chain to Kakariko
+- _Npc::SheikaFemale<Impa 1>:
+    coord: [1772.71, 229.43, 984.31]
+    comment: Talk to Impa twice to advance the locked memories main quest
+- loc(Armor Shop)
+- Sell Ruby
+- Buy Hylian Trousers:
+    coord: [1851.08, 224.74, 981.67]
 - _Npc<Goddess Statue>:
     coord: [1840.12, 218.54, 997.89]
     comment: 2 Heart Containers
@@ -27,34 +37,40 @@ Shrines:
 - _Shrine::TotoSah
 - WB Superlaunch Chain to Ree Dahee
 - _Shrine::ReeDahee
-- SCW to Shee Vaneer:
-    var-change:
-      Arrow: -1
+- SCW to Shee Vaneer
 - _Shrine::SheeVaneer
 - Glide down to Shee Venath
 - _Shrine::SheeVenath
-- Elevator BLSS to Qukah Nata
-- _Shrine::QukahNata
-- WB to Shoda Sah
+- Elevator BLSS to Shoda Sah
 - _Shrine::ShodaSah:
     var-change:
       IceArrow: 5
     comment: Collect .v(IceArrow) Ice Arrows for BTBs
-- Elevator BLSS to Shai Utoh
-- _Shrine::ShaiUtoh
-- WB .dir(E) + BLSS
-- _Shrine::KaoMakagh
-# - WB to Pumaag Nitae
-# - _Shrine::PumaagNitae
-- Elevator BLSS to Ya Naga
-- _Shrine::YaNaga
+- 2 WBs to Qukah Nata
+- _Shrine::QukahNata
+- BLSS
+- _Shrine::MyahmAgana
+- WB .dir(N) to Hateno Blue Flame:
+    coord: [3441.61, 255.67, 1972.58]
+- 2 WBs to Hateno Tech Lab:
+    coord: [3786.98, 356.07, 2117.03]
+    notes: Weapon smuggle and carry flame with boko spear
+- Camera Rune:
+    split-type: UserDefined
+    icon: camera-elite
+- WB chain to Tahno O'ah
+- _Shrine::TahnoOah
 - _Warp::Shrine::TalohNaeg:
     split-type: None
+- _Npc::SheikaFemale<Impa 2>:
+    coord: [1772.71, 229.43, 984.31]
+    comment: Talk to Impa to advance the locked memories main quest 
 # - _Warp::Shrine::ShehRata: 
 #    split-type: None
     line-color: red
-# - _Shrine::SohKofi
-- BLSS to Tah Muhl
+- WB up to tree stump near shrine, Collect 1 wood, BLSS to Soh Kofi
+- _Shrine::SohKofi
+- WB superlaunch + Midair to Tah Muhl
 - _Shrine::TahMuhl
 - WB Chain to Moa Keet
 - _Shrine::MoaKeet
@@ -62,6 +78,8 @@ Shrines:
 - _Shrine::SahDahaj
 - WB Chain to Ze Kasho
 - _Shrine::ZeKasho
+- Elevator BLSS to Dah Hesho
+- _Shrine::DahHesho
 - Elevator BLSS to Katosa Aug
 - _Shrine::KatosaAug
 - Elevator BLSS + WB to Zuna Kai
@@ -71,17 +89,14 @@ Shrines:
     line-color: orange
 - WB Superlaunch to Jee Noh
 - _Shrine::JeeNoh
-- WB Superlaunch to Dah Kaso
-# - _Shrine::DahKaso
+- BLSS
+- _Shrine::DahKaso
 - WB Chain to Rota Ooh
 - _Shrine::RotaOoh
 - Elevator BLSS to Kaam Yatak
 - _Shrine::KaamYatak
 - BTB from Moblin to Mogg Latan:
     coord: [-1090.50, 169.82, 532.50]
-    var-change:
-      IceArrow: -1
-- __use__ CheckArrows
 - _Shrine::MoggLatan
 - BLSS to Tena Kosah
 - _Shrine::TenaKosah
@@ -92,21 +107,61 @@ Shrines:
 - _Shrine::MonyaToma
 - WB to Maag Norah
 - _Shrine::MaagNorah
-- BTB from Moblin to Rin Oyaa:
-    coord: [-1831.33, 211.97, -1653.39]
-    var-change:
-      IceArrow: -2
-- __use__ CheckArrows
+- WB to Shock Arrows
+- _Chest<Shock Arrow, 5>:
+    coord: [-1778.29, 217.15, -1688.33]
+- WB from Moblin to Rin Oyaa:
+    coord: [-1757.21,-1755.25]
 - _Shrine::RinOyaa
-- BLSS to Sha Gehma
-- _Shrine::ShaGehma
-- WB Chain to Qaza Tokki
-- _Shrine::QazaTokki
-- BLSS to Keo Ruug
+- BLSS to Castle
+- _Memory::HyruleCastle
+- _Equipment::Weapon<Edge of Duality>:
+    coord: [-311.81, 256.46, -997.30]
+    comment: Shock Arrow + Ice Arrow the Black Moblin
+- 5 Arrows
+- _Equipment::Bow<Royal Guard's Bow>:
+    coord: [-310.25, 261.03, -995.87]
+    comment: Magensis off wall
+- Clip OOB glide to Lockup
+- _Equipment::Weapon<Royal Guard's Claymore>:
+    coord: [-414.90, 127.54, -1087.77]
+- _Equipment::Weapon<Lizal Tri-Boomerang>:
+    coord: [-424.36, 127.35, -1076.97]
+    comment: Shock Arrow the Fire-Breath Lizalfos
+- _Boss::Hinox::Stal:
+    split-type: none
+    coord: [-491.34, 126.08, -1009.82]
+    notes: Use Royal Guard Claymore, do not break
+- _Chest<Hylian Shield>:
+    coord: [-501.57, 126.08, -1011.58]
+    split-type: UserDefined
+- Campfire warp
+    
+- _Warp::Shrine::TalohNaeg:
+    split-type: None
+- _Npc::SheikaFemale<Impa 4>:
+    coord: [1772.71, 229.43, 984.31]
+    line-color: yellow
+    comment: Talk to Impa to collect Champion's Tunic
 - _Shrine::KeoRuug
 - _Npc<Goddess Statue>:
     coord: [415.74, 258.73, -2179.85]
     comment: 8 Heart Containers
 - _Equipment::Weapon<Master Sword>:
     coord: [431.66, 250.53, -2111.00]
+    notes: Equip damaged Royal Guard's Claymore before pulling master sword 
+    split-type: UserDefined
+- Windbomb chain to Hyrule Castle
+- Enter Blights:
+    icon: calamity
+    split-type: UserDefined
+    coord: [-254.00, 191.01, -1061.37]
+- Blights:
+    icon: calamity
+    split-type: UserDefined
+- Calamity Ganon:
+    icon: calamity
+    split-type: UserDefined
+- Dark Beast Ganon:
+    icon: calamity
     split-type: UserDefined
