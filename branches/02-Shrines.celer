@@ -2,7 +2,7 @@ Shrines:
 - BLSS
 - _Chest<Fire Arrow, 5>:
     coord: [-285.04, 157.09, 1585.50]
-- BLSS
+- WB .dir(E)
 - _Shrine::BoshKala
 - WB Superlaunch to Wahgo Katta
 - _Shrine::WahgoKatta
@@ -14,18 +14,18 @@ Shrines:
 - WB .dir(NW)
 - Collect Food
 - _Shrine::KayaWan
-- WB to top of stable horse, BLSS
+- BLSS
 - _Shrine::ShehRata
-- WB Superlaunch to Daka Tuss
+- BLSS
 - _Shrine::DakaTuss
 - WB Chain to Kakariko
-- _Npc::SheikaFemale<Impa 1>:
-    coord: [1772.71, 229.43, 984.31]
-    comment: Talk to Impa twice to advance the locked memories main quest
-- loc(Armor Shop)
+- .loc(Armor Shop)
 - Sell Ruby
 - Buy Hylian Trousers:
     coord: [1851.08, 224.74, 981.67]
+- _Npc::SheikaFemale<Impa 1>:
+    coord: [1772.71, 229.43, 984.31]
+    comment: Talk to Impa twice to advance the locked memories main quest
 - _Npc<Goddess Statue>:
     coord: [1840.12, 218.54, 997.89]
     comment: 2 Heart Containers
@@ -62,13 +62,13 @@ Shrines:
 - _Shrine::TahnoOah
 - _Warp::Shrine::TalohNaeg:
     split-type: None
+- _Material<Bird Egg>:
+    coord: [1810.63, 226.80, 953.33]
+    line-color: red
 - _Npc::SheikaFemale<Impa 2>:
     coord: [1772.71, 229.43, 984.31]
     comment: Talk to Impa to advance the locked memories main quest 
-# - _Warp::Shrine::ShehRata: 
-#    split-type: None
-    line-color: red
-- WB up to tree stump near shrine, Collect 1 wood, BLSS to Soh Kofi
+- WB up to tree stump near shrine, BLSS to Soh Kofi
 - _Shrine::SohKofi
 - WB superlaunch + Midair to Tah Muhl
 - _Shrine::TahMuhl
@@ -98,26 +98,22 @@ Shrines:
 - BTB from Moblin to Mogg Latan:
     coord: [-1090.50, 169.82, 532.50]
 - _Shrine::MoggLatan
-- BLSS to Tena Kosah
+- Collect 1 wood, BLSS to Tena Kosah
 - _Shrine::TenaKosah
 - WB to Shae Loya
 - _Shrine::ShaeLoya
 - Elevator BLSS to Zalta Wa
 - _Shrine::ZaltaWa
+- WB chain to Monya Toma
 - _Shrine::MonyaToma
 - WB to Maag Norah
 - _Shrine::MaagNorah
-- WB to Shock Arrows
-- _Chest<Shock Arrow, 5>:
-    coord: [-1778.29, 217.15, -1688.33]
 - WB from Moblin to Rin Oyaa:
-    coord: [-1757.21,-1755.25]
+    coord: [-1839.94,-1668.55]
 - _Shrine::RinOyaa
 - BLSS to Castle
 - _Memory::HyruleCastle
-- _Equipment::Weapon<Edge of Duality>:
-    coord: [-311.81, 256.46, -997.30]
-    comment: Shock Arrow + Ice Arrow the Black Moblin
+- Ice Arrow the Black Moblin
 - 5 Arrows
 - _Equipment::Bow<Royal Guard's Bow>:
     coord: [-310.25, 261.03, -995.87]
@@ -125,13 +121,16 @@ Shrines:
 - Clip OOB glide to Lockup
 - _Equipment::Weapon<Royal Guard's Claymore>:
     coord: [-414.90, 127.54, -1087.77]
+- Throw Iron Sledgehammer at Malice Eye
+- Throw bomb at Fire-Breath Lizalfos before Ice Arrow:
+    notes: Will not drop weapons unless awake
 - _Equipment::Weapon<Lizal Tri-Boomerang>:
     coord: [-424.36, 127.35, -1076.97]
-    comment: Shock Arrow the Fire-Breath Lizalfos
+    comment: Ice Arrow the Fire-Breath Lizalfos
 - _Boss::Hinox::Stal:
     split-type: none
     coord: [-491.34, 126.08, -1009.82]
-    notes: Use Royal Guard Claymore, do not break
+    notes: Use Royal Guard Claymore (do not break) and Lizal Tri-Boomerang
 - _Chest<Hylian Shield>:
     coord: [-501.57, 126.08, -1011.58]
     split-type: UserDefined
@@ -139,11 +138,18 @@ Shrines:
     
 - _Warp::Shrine::TalohNaeg:
     split-type: None
-- _Npc::SheikaFemale<Impa 4>:
+- _Npc::SheikaFemale<Impa 3>:
     coord: [1772.71, 229.43, 984.31]
     line-color: yellow
     comment: Talk to Impa to collect Champion's Tunic
+- WB up to Kakariko stump and BLSS to Korok Forest:
+    coord: [1869.15,813.10]
 - _Shrine::KeoRuug
+- _Material<Razorshroom, 4>:
+    comment: Buy 4 Razorshrooms
+    coord: [422.81, 259.99, -2187.32]
+- _Cook<Cook Attack Food>:
+    comment: 4 Razorshroom + 1 Bird Egg for .!!(4:50 Attack food)
 - _Npc<Goddess Statue>:
     coord: [415.74, 258.73, -2179.85]
     comment: 8 Heart Containers
